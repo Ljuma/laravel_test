@@ -17,20 +17,20 @@
     @method('post')
     <div class="form-group">
       <label for="title">Title:</label>
-      <input type="text" class="form-control" id="title" placeholder="Enter the title" name="title">
+      <input type="text" class="form-control" id="title" placeholder="Enter the title" name="title" required>
     </div>
 
  
 
       <label for="short_description">Short Description:</label>
-      <textarea  class="form-control" id="short_description" name="short_description" rows="20" cols="20"></textarea>
+      <textarea  class="form-control" id="short_description" name="short_description" rows="20" cols="20" required></textarea>
       <label for="content">Content:</label>
-      <textarea  class="form-control" id="content" name="content" rows="20" cols="20"></textarea>
+      <textarea  class="form-control" id="content" name="content" rows="20" cols="20" required></textarea>
 
 
       <div class="form-group">
         <label for="picture">Picture:</label>
-        <input type="file" class="form-control" id="picture" name="picture">
+        <input type="file" class="form-control" id="picture" name="picture" required>
       </div>
 
  

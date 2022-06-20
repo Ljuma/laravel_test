@@ -223,14 +223,14 @@ button[type="submit"]:hover{
  
     <div class="form-group">
         <label for="title">Name:</label>
-        <input type="text" class="form-control" id="title" value="{{$user->name}}" name="name">
+        <input type="text" class="form-control" id="title" value="{{$user->name}}" name="name" required>
       </div>
 
         <label for="email">Email:</label>
-        <input type="text" class="form-control" id="email" value="{{$user->email}}" name="email">
+        <input type="text" class="form-control" id="email" value="{{$user->email}}" name="email" required>
 
         <label for="about">About:</label>
-        <textarea  class="form-control" id="about" name="about" >{{$user->about}}</textarea>
+        <textarea  class="form-control" id="about" name="about" required >{{$user->about}}</textarea>
 
         <div class="form-group">
           <label for="picture"> New picture(opt):</label>
